@@ -1,0 +1,57 @@
+* {
+    font-family: sans-serif;
+}
+
+header>h2 {
+    font-family: "Monaco", monospace;
+}
+
+body {
+    align-items: center;
+    display: grid;
+    justify-items: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+section {
+    display: grid;
+    row-gap: 30px;
+}
+
+#index {
+    justify-items: center;
+    max-width: 500px;
+}
+
+#index button,
+#index select {
+    height: 35px;
+    width: 500px;
+}
+
+#index img {
+    width: 50%;
+}
+
+#index select {
+    padding: 5px;
+}
+
+#index textarea {
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    height: 150px;
+    max-width: 500px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+#index textarea::placeholder {
+    color: rgb(172, 172, 172);
+}
